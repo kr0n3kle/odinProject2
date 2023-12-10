@@ -22,6 +22,12 @@ display: flex;
 justify-content: center;
 }
 
+.header-subtext {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
 .menu {
 width: 900px;
 display: flex;
