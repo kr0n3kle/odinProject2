@@ -15,7 +15,7 @@ justify-content: center;
 }
 
 .header-container {
-color: #f8f8f8;
+color: #E5E7EB;
 background-color: #1F2937; 
 padding: 20px 0;
 display: flex;
@@ -39,12 +39,12 @@ gap: 1rem;
 
 a:link {
 text-decoration: none;
-color: #f8f8f8;
+color: #E5E7EB;
 }
 
 a:visited {
 text-decoration: none;
-color: #f8f8f8;
+color: #E5E7EB;
 }
 
 .header-container div {
@@ -76,7 +76,7 @@ background-color: #1F2937;
 display: flex;
 flex: auto;
 height: 5vh;
-color: white;
+color: #E5E7EB;
 text-align: center;
 justify-content: center;
 padding: 10px;
@@ -117,8 +117,11 @@ margin-right: 10vh;
 justify-content: center;
 display: flex;
 flex: 1;
-/* border: 1px solid #0276db; */
+color: #1F2937; 
 margin: 48px;
+font-weight: 1100px;
+font-size: 38px;
+font-weight: bold;
 }
 
 .last-container {
@@ -130,7 +133,7 @@ justify-content: center;
 .blue-box {
 margin-top: 60px;
 background-color: rgb(49, 142, 255);
-color: rgb(255, 255, 255);
+color: #E5E7EB;
 margin-bottom:60px;
 border-radius: 15px;
 padding: 30px;
