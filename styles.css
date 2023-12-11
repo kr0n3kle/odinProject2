@@ -153,13 +153,13 @@ justify-content: center;
 }
 
 .blue-box {
-margin-top: 60px;
+display: flex;
 background-color: #3882F6;
 color: #E5E7EB;
-margin-bottom:60px;
-border-radius: 15px;
-padding: 30px;
-align-items: center;
+max-width: 65;
+margin: 48px;
+flex: 1;
+border-radius: 10px;
 }
 
 button {
@@ -167,12 +167,29 @@ padding: 10px 20px;
 font-size: 14px;
 text-align: center;
 text-decoration: none;
+width: 125px;
 cursor: pointer;
 background-color: #3882F6;
 color: #F9FAF8;
 border: none;
 border-radius: 8px;
 transition: background-color 0.3s ease;
-
 }
 
+.button {
+border: 1px solid #fff;
+margin-left: 300px;
+margin-top: 30px;
+} 
+
+.right-text {
+justify-content: right;
+text-align: right;
+}
+
+.left-text {
+justify-content: left;
+text-align: left;
+padding: 30px;
+
+}
